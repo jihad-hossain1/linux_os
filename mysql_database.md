@@ -72,7 +72,7 @@ bind-address = 0.0.0.0
 ```bash
 sudo systemctl restart mysqld
 ```
-Here’s a **full step-by-step instruction** to install and configure **phpMyAdmin on Fedora 42** with **MySQL 8.4**, in a way that avoids all SELinux and socket issues:
+
 
 ---
 
@@ -139,6 +139,9 @@ FLUSH PRIVILEGES;
 ```bash
 cd /usr/share/
 sudo wget https://www.phpmyadmin.net/downloads/phpMyAdmin-latest-all-languages.tar.gz
+```
+- Extract
+```bash
 sudo tar -xvf phpMyAdmin-latest-all-languages.tar.gz
 sudo mv phpMyAdmin-*-all-languages phpmyadmin
 sudo rm phpMyAdmin-latest-all-languages.tar.gz
