@@ -1,0 +1,28 @@
+
+## ✅ Correct way to remove it (Flatpak)
+
+### 1️⃣ Check if it’s installed via Flatpak as like "workbench"
+
+```bash
+flatpak list | grep -i <here your package name>
+```
+
+You should see something like:
+
+```
+example.name.packagename
+```
+
+---
+
+### 2️⃣ Uninstall it
+
+```bash
+flatpak uninstall example.name.packagename
+```
+
+If it was installed system-wide:
+
+```bash
+sudo flatpak uninstall example.name.packagename
+```
