@@ -1,0 +1,14 @@
+-- install zsh(shell)
+sudo dnf install zsh
+
+-- change shell
+chsh -s $(which zsh)
+
+-- open zsh configuration
+nano ~/.zshrc
+
+-- Theme
+awesomepanda
+
+#### full documentation here
+https://github.com/novaspirit/pimpyourterm?tab=readme-ov-file
