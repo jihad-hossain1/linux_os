@@ -20,9 +20,26 @@ example.name.packagename
 ```bash
 flatpak uninstall example.name.packagename
 ```
-
+---- 
 If it was installed system-wide:
 
 ```bash
 sudo flatpak uninstall example.name.packagename
+```
+----- 
+
+```bash
+rpm -qa ## all list here show
+```
+
+```bash
+rpm -qa | grep ## (past here package name or installed software name)
+```
+- This also removes dependencies cleanly.
+```bash
+sudo dnf remove cloudflare-warp
+```
+- Method 2: Force remove using rpm (only if dnf fails)
+```bash
+sudo rpm -e --nodeps cloudflare-warp
 ```
