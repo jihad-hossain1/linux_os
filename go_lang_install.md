@@ -1,5 +1,5 @@
-
-
+# permanently install 
+[go to this link](https://developer.fedoraproject.org/tech/languages/go/go-installation.html)
 # ✅ Step 1 — Download the correct Go 1.22 version
 
 Latest Go 1.22 release is **1.22.0** (or use 1.22.5 if you want a patched version).
