@@ -1,7 +1,9 @@
-- run this
-```bash 
-sudo yum update 
+
+### Add cloudflare-warp.repo to /etc/yum.repos.d/
+```bash
+curl -fsSl https://pkg.cloudflareclient.com/cloudflare-warp-ascii.repo | sudo tee /etc/yum.repos.d/cloudflare-warp.repo
 ```
+
 - then run this 
 ```bash 
 sudo yum install cloudflare-warp 
